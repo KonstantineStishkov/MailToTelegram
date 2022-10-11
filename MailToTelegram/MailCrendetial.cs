@@ -8,11 +8,17 @@ using System.Threading.Tasks;
 namespace MailToTelegram
 {
     [Serializable]
-    public class MailCrendetial
+    public class MailCredential
     {
+        [JsonInclude] public string Imap { get; set; }
+        [JsonInclude] public string User { get; set; }
+        [JsonInclude] public string Password { get; set; }
 
-        [JsonInclude] public string imap { get; set; }
-        [JsonInclude] public string user;
-        [JsonInclude] public string password;
+        public MailCredential()
+        {
+            Imap = string.Empty;
+            User = string.Empty;
+            Password = string.Empty;
+        }
     }
 }

@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailToTelegram", "MailToTelegram\MailToTelegram.csproj", "{E3384B92-2163-48B5-89C7-C922048B1ACD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailToTelegram", "MailToTelegram\MailToTelegram.csproj", "{E3384B92-2163-48B5-89C7-C922048B1ACD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramConstants", "TelegramConstants\TelegramConstants.csproj", "{AD50965F-02E4-467B-AA1A-C435CC1388E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{E3384B92-2163-48B5-89C7-C922048B1ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3384B92-2163-48B5-89C7-C922048B1ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3384B92-2163-48B5-89C7-C922048B1ACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD50965F-02E4-467B-AA1A-C435CC1388E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD50965F-02E4-467B-AA1A-C435CC1388E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD50965F-02E4-467B-AA1A-C435CC1388E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD50965F-02E4-467B-AA1A-C435CC1388E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

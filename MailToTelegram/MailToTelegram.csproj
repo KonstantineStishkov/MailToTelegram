@@ -9,7 +9,12 @@
 
   <ItemGroup>
     <PackageReference Include="Mail.dll" Version="3.0.22234.1038" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.1" />
     <PackageReference Include="Telegram.Bot" Version="18.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TelegramConstants\TelegramConstants.csproj" />
   </ItemGroup>
 
 </Project>
